@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    height: 100%;
+}
+form{
+    background: black;
+    width: 250px;
+    border-radius: 10px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+input[name="display"]{
+    background-color: rgb(209, 209, 209);
+    height: 40px;
+    width: calc(100% - 30px);
+    text-align: right;
+    border-radius: 8px;
+    border-radius: 5px;
+    margin: 5px;
+    border: none;
+    padding: 0 10px;
+}
+input[type="button"]{
+    float: left;
+    width: calc(100% / 4 - 6.5px);
+    background: white;
+    border-radius: 8px;
+    height: 36px;
+    text-align: center;
+    margin: 0 0 5px 5px;
+    border: none;
+}
+input[type="button"]:nth-last-of-type(1){
+    background: rgb(255, 255, 0);
+    width: calc(50% - 7px);
+}
